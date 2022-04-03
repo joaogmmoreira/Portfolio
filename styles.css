@@ -11,16 +11,16 @@
     text-align: center;
     background-color: #C6C5B9;
     margin: auto;
-    padding: 5%;
+    padding: 3%;
 }
 
 #menu {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     color: #FDFDFF;
-    background-color: #546A7B ;
+    background-color: #546A7B;
     text-decoration: none;
-    padding: 1%;
+    padding: 2%;
 }
 
 
@@ -32,35 +32,31 @@
 #foto {
     border-radius: 50%;
     display: block;
-    margin-top: -20px;;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: -20px;
-    width: 30%;
+    padding: 20px;
+    width: 35%;
+    float: left;
+    
 }
 
 #text {
-    color: #FDFDFF;;
+    color: #393D3F;;
     font-size: 18px;
     font-weight: 300;
-    background-color: #546A7B;
-    padding: 50px 200px 0px;
+    background-color: #C6C5B9;
+    padding: 20px 0px 0px 30px;
     text-align: center;
-    margin: auto;
 }
 
 #video {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
-    margin-bottom: 15px;
-
+    margin-left: -50px;
+    padding: 5px; 
+    background-color: #546A7B;
 }
 
 #list {
-    background-color: #C6C5B9;
-    font-weight: 700;
-    color: #393D3F2;
+    background-color: #546A7B;
+    font-weight: 500;
+    color: #fdfdff;
     padding: 2% 30%;
+     
 }
