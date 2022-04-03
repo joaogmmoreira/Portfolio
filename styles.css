@@ -6,9 +6,10 @@
 
 #title {
     font-size: 48px;
-    color:rgb(11, 158, 109);
+    font-weight: 700;
+    color: #393D3F;
     text-align: center;
-    background-color: #f5f5f5;
+    background-color: #C6C5B9;
     margin: auto;
     padding: 5%;
 }
@@ -16,27 +17,37 @@
 #menu {
     font-size: 14px;
     font-weight: 700;
-    color: white;
-    background-color: rgba(11, 158, 109, 0.582);
+    color: #FDFDFF;
+    background-color: #546A7B ;
     text-decoration: none;
     padding: 1%;
 }
 
-#fotojg {
+menu:hover {
+    color:#C6C5B9
+}
+
+#menuid li {
+    display: inline-block;
+    width: 250px;
+}
+
+#foto {
+    border-radius: 50%;
     display: block;
+    margin-top: -20px;;
     margin-right: auto;
     margin-left: auto;
-    width: 50%;
-    
-
+    margin-bottom: -20px;
+    width: 30%;
 }
 
 #text {
-    color: rgb(11, 158, 109);
+    color: #FDFDFF;;
     font-size: 18px;
     font-weight: 300;
-    background-color: #f5f5f5;
-    padding: 5px;
+    background-color: #546A7B;
+    padding: 50px 200px 0px;
     text-align: center;
     margin: auto;
 }
@@ -45,15 +56,14 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 50%;
-    margin-bottom: 5px;
+    width: 100%;
+    margin-bottom: 15px;
 
 }
 
 #list {
-    background-color: rgba(11, 158, 109, 0.582);
+    background-color: #C6C5B9;
     font-weight: 700;
-    color: white;
-    padding: 3%;
-    
+    color: #393D3F2;
+    padding: 2% 30%;
 }
